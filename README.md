@@ -127,4 +127,5 @@ Ask questions such as:
 53.	What's your favorite movie?
 54.	What's the meaning of life?
 55.	Do you like to travel?
+<br>
 These patterns cover a wide range of topics and can be used for engaging in a conversation with the chat bot.
