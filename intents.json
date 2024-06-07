@@ -1,0 +1,208 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard, and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "malware",
+      "patterns": ["What is malware?", "What is a malware?"],
+      "responses": ["Malware refers to malicious software designed to harm or exploit computer systems."],
+      "context_set": ""
+    },
+    {
+      "tag": "phishing",
+      "patterns": ["What is phishing?"],
+      "responses": ["Phishing is a fraudulent practice where attackers attempt to trick individuals into revealing sensitive information."]
+    },
+    {
+      "tag": "encryption",
+      "patterns": ["What is encryption?"],
+      "responses": ["Encryption is the process of converting data into a code to prevent unauthorized access."]
+    },
+    {
+      "tag": "firewall",
+      "patterns": ["What is a firewall?"],
+      "responses": ["A firewall is a network security device that monitors and controls incoming and outgoing network traffic."]
+    },
+    {
+      "tag": "intrusion detection system",
+      "patterns": ["What is an Intrusion Detection System (IDS)?"],
+      "responses": ["An Intrusion Detection System (IDS) is a security solution that monitors network traffic for signs of malicious activities or policy violations."]
+    },
+    {
+      "tag": "vulnerability",
+      "patterns": ["What is a vulnerability?"],
+      "responses": ["A vulnerability is a weakness or flaw in a system that can be exploited by attackers."]
+    },
+    {
+      "tag": "cyberattack",
+      "patterns": ["What is a cyberattack?"],
+      "responses": ["A cyberattack is a deliberate attempt to compromise the confidentiality, integrity, or availability of computer systems or networks."]
+    },
+    {
+      "tag": "data breach",
+      "patterns": ["What is a data breach?"],
+      "responses": ["A data breach is an unauthorized access or disclosure of sensitive or confidential information."]
+    },
+    {
+      "tag": "ransomware",
+      "patterns": ["What is ransomware?"],
+      "responses": ["Ransomware is a type of malware that encrypts a victim's files or locks their device until a ransom is paid."]
+    },
+    {
+      "tag": "two-factor authentication",
+      "patterns": ["What is Two-Factor Authentication (2FA)?"],
+      "responses": ["Two-Factor Authentication (2FA) is an additional security layer that requires users to provide two forms of identification to access an account."]
+    },
+    {
+      "tag": "zero-day exploit",
+      "patterns": ["What is a zero-day exploit?"],
+      "responses": ["A zero-day exploit is a vulnerability or software flaw that is unknown to the software vendor or has no available patch."]
+    },
+    {
+      "tag": "patching",
+      "patterns": ["What is patching?"],
+      "responses": ["Patching refers to the process of updating software or systems to address vulnerabilities or add new features."]
+    },
+    {
+      "tag": "social engineering",
+      "patterns": ["What is social engineering?"],
+      "responses": ["Social engineering is the manipulation of individuals to deceive or trick them into revealing sensitive information or performing actions."]
+    },
+    {
+      "tag": "endpoint security",
+      "patterns": ["What is endpoint security?"],
+      "responses": ["Endpoint security focuses on protecting individual devices (endpoints) like laptops, smartphones, or servers from security threats."]
+    },
+    {
+      "tag": "network security",
+      "patterns": ["What is network security?"],
+      "responses": ["Network security involves protecting the integrity, confidentiality, and availability of a computer network and its data."]
+    },
+    {
+      "tag": "password policy",
+      "patterns": ["What is a password policy?"],
+      "responses": ["A password policy is a set of rules or guidelines that govern the creation, use, and management of passwords."]
+    },
+    {
+      "tag": "identity theft",
+      "patterns": ["What is identity theft?"],
+      "responses": ["Identity theft is the unauthorized use of someone's personal information for fraudulent purposes."]
+    },
+    {
+      "tag": "cybersecurity awareness",
+      "patterns": ["Why is cybersecurity awareness important?"],
+      "responses": ["Cybersecurity awareness is important as it helps individuals understand and mitigate the risks associated with cyber threats."]
+    },
+    {
+      "tag": "security operations center",
+      "patterns": ["What is a Security Operations Center (SOC)?"],
+      "responses": ["A Security Operations Center (SOC) is a centralized unit within an organization responsible for monitoring, analyzing, and responding to security incidents."]
+    },
+    {
+      "tag": "incident response",
+      "patterns": ["What is incident response?"],
+      "responses": ["Incident response refers to the process of handling and managing security incidents in an organized and efficient manner."]
+    },
+    {
+      "tag": "general_chat",
+      "patterns": [
+        "How's the weather today?",
+        "What's your favorite color?",
+        "What's the latest news?",
+        "Tell me about yourself",
+        "Do you have any hobbies?",
+        "What's your favorite movie?",
+        "What's the meaning of life?",
+        "Do you like to travel?"
+      ],
+      "responses": [
+        "I'm sorry, I am an AI and don't have the ability to experience weather.",
+        "As an AI, I don't have personal preferences, including favorite colors.",
+        "I don't have access to the latest news, but you can check news websites or apps for the latest updates.",
+        "I'm an AI language model created by Group BT2089. My purpose is to assist, provide information and test the abilities of a chat bot.",
+        "I don't have physical form, so I don't have hobbies like humans do.",
+        "I don't have the ability to watch movies, but I can recommend some popular ones if you'd like.",
+        "The meaning of life is subjective and can vary from person to person.",
+        "As an AI, I don't have the ability to travel, but I can provide information about different places."
+      ]
+    }
+  ]
+}
